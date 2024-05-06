@@ -22,6 +22,7 @@ import headerLogo from './header-logo.svg'
 import offer from './offer.svg'
 
 import thumbnailBackground from './thumbnail-background.svg'
+import thumbnailBackground2 from './thumbnail-background2.svg'
 
 import thumbnail4090 from './thumbnail4090.svg'
 import thumbnail4080super from './thumbnail-rtx4080super.svg'
@@ -53,7 +54,8 @@ export {
 
     offer,  
 
-    thumbnailBackground,   
+    thumbnailBackground,  
+    thumbnailBackground2,
     thumbnail4090,
     thumbnail4080super,
     thumbnailrx7900xtx,

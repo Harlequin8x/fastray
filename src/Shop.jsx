@@ -4,7 +4,7 @@ import Nav from './components/Nav'
 const Shop = () => (
   <main className="relative">
     <Nav />
-    <section className="xl:padding-l wide:padding-r padding-b">
+    <section className="padding">
       <ShopHero />
     </section>
     <section className="bg-black padding-x padding-t pb-8">

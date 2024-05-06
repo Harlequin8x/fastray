@@ -10,8 +10,8 @@ import {
   customer3,
   RTX4080,
   RX7900XT,
-  // RTX4070TiSuper,
-  // RTX4070Ti,
+  RTX4070TiSuper,
+  RTX4070Ti,
   thumbnail4090,
   thumbnail4080super,
   thumbnailrx7900xtx,
@@ -103,6 +103,63 @@ export const products = [
   //   price: '699€',
   //   star1: '4.5',
   // },
+]
+
+export const products2 = [  
+  {    
+    imgURL: rtx4090,    
+    name: 'RTX 4090',
+    price: '1739€',
+    star1: '5.0.',
+  },
+  {    
+    imgURL: rtx4080super,    
+    name: 'RTX 4080 Super',
+    price: '1139€',
+    star1: '4.9',
+  },
+  {    
+    imgURL: rx7900xtx,    
+    name: 'RX 7900 XTX',
+    price: '959',
+    star1: '4.8',
+  },
+  {
+    imgURL: RTX4080,
+    name: 'RTX 4080',
+    price: '1049',
+    star1: '4.7',
+  },
+  {
+    imgURL: RX7900XT,
+    name: 'RX 7900 XT',
+    price: '699€',
+    star1: '4.8',
+  },
+  {
+    imgURL: ryzen7800X3D,
+    name: 'Ryzen 7 7800X3D',
+    price: '358€',
+    star1: '4.6',
+  },
+  {
+    imgURL: b650EAorus,
+    name: 'B650E Aorus Master ',
+    price: '372€',
+    star1: '4.7',
+  },
+  {
+    imgURL: RTX4070TiSuper,
+    name: 'RTX 4070 TI Super',
+    price: '799€',
+    star1: '4.4',
+  },
+  {
+    imgURL: RTX4070Ti,
+    name: 'RTX 4070 Ti',
+    price: '699€',
+    star1: '4.5',
+  },
 ]
 
 export const services = [

@@ -55,4 +55,8 @@
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
+
+  .wider-search-bar {
+    width: 1320px; /* Adjust the width as needed */
+  }
 }
