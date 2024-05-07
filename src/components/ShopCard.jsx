@@ -1,14 +1,14 @@
-import { star } from '../assets/icons/index'
+import { star } from "../assets/icons/index"
 
-const ShopCard = ({ imgURL, name, price, star1 }) => {
+const ShopCard = ({ imgURL, name, price, star2 }) => {
   return (
-    <div className="flex flex-1 flex-col w-full max-sm:w-full bg-card rounded-xl max-h-72 bg-cover mb-24">
+    <div className="flex flex-1 flex-col items-center w-full max-sm:w-full bg-card rounded-xl max-h-72 bg-cover mb-24">
       <img
         src={imgURL}
         alt={name}
         className="w-[350px] h-[280px]"
       />
-      <div className="mt-8 flex justify-start gap-2.5">
+      <div className="mt-8 flex items-center gap-2.5">
         <img
           src={star}
           alt="rating"
@@ -16,7 +16,7 @@ const ShopCard = ({ imgURL, name, price, star1 }) => {
           height={24}
         />
 
-        <p className="font-montserrat text-xl leading-normal text-slate-gray">({star1})</p>
+        <p className="font-montserrat text-xl leading-normal text-slate-gray">({star2})</p>
       </div>
       <h3 className="mt-2 text-2xl leading-normal font-semibold font-palanquin">{name}</h3>
       <p className="mt-2 font-semibold font-montserrat text-dark-red text-2xl leading-normal">{price}</p>

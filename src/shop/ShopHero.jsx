@@ -23,11 +23,12 @@ const ShopHero = () => {
   const categories = ['Alles', 'GPU', 'CPU', 'Mainboard']; // Define your categories here
 
   return (
-    <section id="shop" className="w-full xl:flex-row flex-col justify-center min-h-screen gap-10 bg-hero bg-cover">
+    // bg-hero bg-cover
+    <section id="shop" className="w-full xl:flex-row flex-col justify-center min-h-screen gap-10">
       <div className="flex flex-col justify-start gap-5 items-center">
         <h2 className="text-4xl font-palanquin font-bold">
-          Unser
-          <span className="text-dark-red"> Angebot</span>
+          Finde deine
+          <span className="text-dark-red"> Hardware!</span>
         </h2>
       </div>
 
