@@ -4,7 +4,9 @@ import {
   rtx4080super,
   rtx4090,
   ryzen7800X3D,
+  Ryzen97950X3D,
   b650EAorus,
+  ASRockX670ETaichi,
   customer1,
   customer2,  
   customer3,
@@ -91,72 +93,84 @@ export const products = [
     price: '372€',
     star1: '4.7',
   }
-  // {
-  //   imgURL: RTX4070TiSuper,
-  //   name: 'RTX 4070 TI Super',
-  //   price: '799€',
-  //   star1: '4.4',
-  // },
-  // {
-  //   imgURL: RTX4070Ti,
-  //   name: 'RTX 4070 Ti',
-  //   price: '699€',
-  //   star1: '4.5',
-  // },
 ]
 
 export const products2 = [  
   {    
     imgURL: rtx4090,    
     name: 'RTX 4090',
+    category: 'GPU',
     price: '1739€',
     star1: '5.0.',
   },
   {    
     imgURL: rtx4080super,    
     name: 'RTX 4080 Super',
+    category: 'GPU',
     price: '1139€',
     star1: '4.9',
   },
   {    
     imgURL: rx7900xtx,    
     name: 'RX 7900 XTX',
+    category: 'GPU',
     price: '959',
     star1: '4.8',
   },
   {
     imgURL: RTX4080,
     name: 'RTX 4080',
+    category: 'GPU',
     price: '1049',
     star1: '4.7',
   },
   {
     imgURL: RX7900XT,
     name: 'RX 7900 XT',
+    category: 'GPU',
     price: '699€',
     star1: '4.8',
   },
   {
     imgURL: ryzen7800X3D,
     name: 'Ryzen 7 7800X3D',
+    category: 'CPU',
     price: '358€',
     star1: '4.6',
   },
   {
+    imgURL: Ryzen97950X3D,
+    name: 'Ryzen 9 7950X3D',
+    category: 'CPU',
+    price: '626€',
+    star1: '4.7',
+  },  
+  {
     imgURL: b650EAorus,
     name: 'B650E Aorus Master ',
+    category: 'Mainboard',
     price: '372€',
     star1: '4.7',
   },
   {
+    imgURL: ASRockX670ETaichi,
+    name: 'ASRock X670E Taichi',
+    category: 'Mainboard',
+    price: '524.92',
+    star1: '4.7',
+  },
+  
+  {
     imgURL: RTX4070TiSuper,
     name: 'RTX 4070 TI Super',
+    category: 'GPU',
     price: '799€',
     star1: '4.4',
   },
   {
     imgURL: RTX4070Ti,
     name: 'RTX 4070 Ti',
+    category: 'GPU',
     price: '699€',
     star1: '4.5',
   },
@@ -203,7 +217,7 @@ export const reviews = [
 
 export const footerLinks = [
   {
-    title: 'Products',
+    title: 'Produkte',
     links: [
       { name: 'GPU', link: '/' },
       { name: 'CPU', link: '/' },
@@ -212,7 +226,7 @@ export const footerLinks = [
     ],
   },
   {
-    title: 'Help',
+    title: 'Hilfe',
     links: [
       { name: 'Über uns', link: '/' },
       { name: 'FAQs', link: '/' },

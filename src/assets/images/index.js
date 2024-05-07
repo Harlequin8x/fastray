@@ -7,8 +7,10 @@ import RTX4080 from './RTX4080.png'
 import RX7900XT from './RX7900XT.png'
 
 import ryzen7800X3D from './ryzen7800X3D.png'
+import Ryzen97950X3D from './Ryzen97950X3D.png'
 
 import b650EAorus from './b650EAorus.png'
+import ASRockX670ETaichi from './ASRockX670ETaichi.png'
 
 import FullPC from './FullPC.png'
 
@@ -40,8 +42,10 @@ export {
     RTX4070Ti,
 
     ryzen7800X3D,
+    Ryzen97950X3D,
 
     b650EAorus,
+    ASRockX670ETaichi,
 
     FullPC,
 
