@@ -114,14 +114,14 @@ export const products2 = [
     imgURL: rx7900xtx,    
     name: 'RX 7900 XTX',
     category: 'GPU',
-    price: '959',
+    price: '959€',
     star2: '4.8',
   },
   {
     imgURL: RTX4080,
     name: 'RTX 4080',
     category: 'GPU',
-    price: '1049',
+    price: '1049€',
     star2: '4.7',
   },
   {
@@ -156,7 +156,7 @@ export const products2 = [
     imgURL: ASRockX670ETaichi,
     name: 'ASRock X670E Taichi',
     category: 'Mainboard',
-    price: '524.92',
+    price: '524.92€',
     star2: '4.7',
   },  
   {
