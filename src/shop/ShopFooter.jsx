@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { copyrightSign } from '../assets/icons/index'
 import { headerLogo } from '../assets/images/index'
 import { footerLinks, socialMedia } from '../constants/index'
@@ -19,40 +20,43 @@ const Footer = () => {
             über blitzschnelle Prozessoren bis hin zu zuverlässigen Speicherlösungen.
           </p>
           <div className="flex items-center gap-5 mt-8">
-            {socialMedia.map((icon2) => (
-              <div
-                className="flex justify-center items-center w-12 h-12 bg-white rounded-full"
-                key={icon2.alt}
-              >
-                <img
-                  src={icon2.src}
-                  alt={icon2.alt}
-                  width={24}
-                  height={24}
-                />
-              </div>
+            {socialMedia.map((icon) => (
+              <a href={icon.href} key={icon.alt}> {/* Add href attribute here */}
+                <div
+                  className="flex justify-center items-center w-12 h-12 bg-white rounded-full"
+                >
+                  <img
+                    src={icon.src}
+                    alt={icon.alt}
+                    width={24}
+                    height={24}
+                  />
+                </div>
+              </a>
             ))}
           </div>
         </div>
 
         <div className="flex flex-1 justify-betwen lg:gap-10 gap-20 flex-wrap">
-          {footerLinks.map((section2) => (
-            <div key={section2}>
-              <h4 className="text-white font-montserrat text-2xl leading-normal font-medium mb-6">{section2.title}</h4>
+          {footerLinks.map((section) => (
+            <div key={section}>
+              <h4 className="text-white font-montserrat text-2xl leading-normal font-medium mb-6">{section.title}</h4>
               <ul>
-                {section2.links.map((link2) => (
+                {section.links.map((link) => (
                   <li
                     className="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer"
-                    key={link2.name}
+                    key={link.name}
                   >
-                    <a>{link2.name}</a>
+                    <Link to="/shop">
+                      {link.name}
+                      </Link>
                   </li>
                 ))}
               </ul>
             </div>
           ))}
         </div>
-      </div>        
+      </div>          
 
       <div className="flex justify-between text-white-400 mt-24 max-sm:flex-col max-sm:items-center">
         <div className="flex flex-1 justify-start gap-2 font-montserrat cursor-pointer">

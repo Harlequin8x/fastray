@@ -1,9 +1,12 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { products2 } from '../constants/index';
 import SearchComponent from './SearchComponent';
 import ShopCard from '../components/ShopCard';
-import { products2 } from '../constants/index';
 
 const ShopHero = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top on component mount
+  }, []);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('Alles'); // Default to show all categories
 

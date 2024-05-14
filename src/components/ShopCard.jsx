@@ -2,7 +2,7 @@ import { star } from '../assets/icons/index'
 
 const ShopCard = ({ imgURL, name, price, star2 }) => {
   return (
-    <div className="relative flex flex-col items-center w-full max-sm:w-full bg-card rounded-xl max-h-72 bg-cover mb-24">
+    <div className="relative flex flex-col items-center w-full max-sm:w-full bg-card rounded-xl max-h-72 bg-cover mb-24 border-2 border-dark-red">
       <img
         src={imgURL}
         alt={name}

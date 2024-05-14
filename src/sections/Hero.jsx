@@ -5,6 +5,7 @@ import { gpus, statistics } from '../constants'
 import { rtx4090 } from '../assets/images'
 import Button from '../components/Button'
 import GPUCard from '../components/GPUCard'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   const [bigGPUImg, setBigGPUImg] = useState(rtx4090)
@@ -23,11 +24,13 @@ const Hero = () => {
         </h1>
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
           Hol dir leistungsstarke Hardware die dein Gaming-Erlebnis aufs nächste Level bringt und das zu einem günstigen Preis!
-        </p>        
-        <Button
+        </p>  
+        <Link to="/shop">
+        <Button          
           label="Shop"
           iconURL={arrowRight}
-          />          
+        />          
+        </Link>
 
         <div className="flex justify-starts items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((stat, index) => (
