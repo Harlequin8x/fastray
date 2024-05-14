@@ -14,7 +14,7 @@ const SearchComponent = ({ onSearch }) => {
   };
 
   return (
-    <div>
+    <div className="search-container">
       <input
         type="text"
         placeholder="Suchen..."
@@ -25,6 +25,7 @@ const SearchComponent = ({ onSearch }) => {
           border: '1px solid black', // Add border around the input
           backgroundColor: 'lightblue', // Change the background color
           padding: '5px' // Add padding for better visibility
+          
         }}
       />
       <button onClick={handleSearch} className="icon-button">

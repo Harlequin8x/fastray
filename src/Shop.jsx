@@ -1,4 +1,4 @@
-import { ShopHero, ShopFooter } from './shop'
+import { ShopHero, ShopFooter } from './shopSection'
 import Nav from './components/Nav'
 
 const Shop = () => (

@@ -35,7 +35,7 @@ const ShopHero = () => {
         </h2>
       </div>
 
-      <div className="font-bold p-8">
+      <div className="font-bold p-8 ml-9">
         <SearchComponent onSearch={handleSearch}/>
         
         <select value={selectedCategory} onChange={handleCategoryChange}>

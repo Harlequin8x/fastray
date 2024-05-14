@@ -57,6 +57,13 @@
   }
 
   .wider-search-bar {
-    width: 1950px; /* Adjust the width as needed */
+    width: 1975px; /* Adjust the width as needed */
   }
+
+  .search-container {
+    display: flex;  /* Set the container to display as flexbox */
+    justify-content: center;  /* Center the content horizontally */
+    align-items: center;   /*Center the content vertically (optional) */    
+  }
+  
 }
